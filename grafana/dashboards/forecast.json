@@ -1,0 +1,8 @@
+{
+  "title": "Retail Forecast Pipeline",
+  "panels": [
+    {"title":"Pipeline Runs","type":"stat","targets":[{"expr":"forecast_pipeline_runs_total"}]},
+    {"title":"Latest R2","type":"stat","targets":[{"expr":"forecast_last_r2"}]},
+    {"title":"Drift Alerts","type":"stat","targets":[{"expr":"forecast_drift_alerts_total"}]}
+  ]
+}
